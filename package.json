@@ -47,7 +47,7 @@
     "@google-cloud/error-reporting": "^2.0.4",
     "@lhci/cli": "^0.7.2",
     "@rollup/plugin-node-resolve": "^8.4.0",
-    "algoliasearch": "^4.6.0",
+    "algoliasearch": "^4.14.2",
     "async-transforms": "^1.0.6",
     "chokidar": "^3.5.1",
     "chokidar-cli": "^2.1.0",
