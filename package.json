@@ -39,7 +39,9 @@
     "version-check": "npm run sync-external && node version-check.js",
     "build-external": "node ./external/build-external.js",
     "maybe-sync-external": "node ./external/maybe-sync-external.js",
-    "sync-external": "node ./external/sync-external.js"
+    "sync-external": "node ./external/sync-external.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "license": "Apache 2.0",
   "dependencies": {
@@ -95,7 +97,8 @@
     "uslug": "^1.0.4",
     "web-vitals": "^3.0.0",
     "webdev-infra": "^1.0.33",
-    "xss": "^1.0.14"
+    "xss": "^1.0.14",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
@@ -143,5 +146,6 @@
   },
   "volta": {
     "node": "16.14.2"
-  }
+  },
+  "snyk": true
 }
