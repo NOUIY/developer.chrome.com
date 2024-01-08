@@ -55,7 +55,7 @@
     "@mdn/browser-compat-data": "5.3.20",
     "@rollup/plugin-node-resolve": "^8.4.0",
     "adm-zip": "0.5.10",
-    "algoliasearch": "^4.6.0",
+    "algoliasearch": "^4.22.0",
     "async-transforms": "1.0.6",
     "cheerio": "1.0.0-rc.3",
     "chokidar": "^3.5.1",
