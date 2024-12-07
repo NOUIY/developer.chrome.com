@@ -62,7 +62,7 @@
     "chokidar-cli": "^2.1.0",
     "common-tags": "^1.8.0",
     "compression": "^1.7.4",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "escape-string-regexp": "^4.0.0",
     "execa": "^6.1.0",
     "express": "^4.17.1",
